@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009E6220E9F3200416CAD /* AppDelegate.swift */; };
+		FDC009E9220E9F3200416CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009E8220E9F3200416CAD /* ViewController.swift */; };
+		FDC009EC220E9F3200416CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC009EA220E9F3200416CAD /* Main.storyboard */; };
+		FDC009EE220E9F3600416CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC009ED220E9F3600416CAD /* Assets.xcassets */; };
+		FDC009F1220E9F3600416CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */; };
+		FDC009FC220E9F3700416CAD /* BotBrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009FB220E9F3700416CAD /* BotBrainTests.swift */; };
+		FDC00A07220E9F3700416CAD /* BotBrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A06220E9F3700416CAD /* BotBrainUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDC009F8220E9F3700416CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC009DB220E9F3100416CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC009E2220E9F3200416CAD;
+			remoteInfo = BotBrain;
+		};
+		FDC00A03220E9F3700416CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC009DB220E9F3100416CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC009E2220E9F3200416CAD;
+			remoteInfo = BotBrain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDC009E3220E9F3200416CAD /* BotBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC009E6220E9F3200416CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDC009E8220E9F3200416CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDC009EB220E9F3200416CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDC009ED220E9F3600416CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDC009F0220E9F3600416CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDC009F2220E9F3600416CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC009F7220E9F3700416CAD /* BotBrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotBrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC009FB220E9F3700416CAD /* BotBrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotBrainTests.swift; sourceTree = "<group>"; };
+		FDC009FD220E9F3700416CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC00A02220E9F3700416CAD /* BotBrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotBrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC00A06220E9F3700416CAD /* BotBrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotBrainUITests.swift; sourceTree = "<group>"; };
+		FDC00A08220E9F3700416CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC009E0220E9F3200416CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC009F4220E9F3700416CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC009FF220E9F3700416CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC009DA220E9F3100416CAD = {
+			isa = PBXGroup;
+			children = (
+				FDC009E5220E9F3200416CAD /* BotBrain */,
+				FDC009FA220E9F3700416CAD /* BotBrainTests */,
+				FDC00A05220E9F3700416CAD /* BotBrainUITests */,
+				FDC009E4220E9F3200416CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC009E4220E9F3200416CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC009E3220E9F3200416CAD /* BotBrain.app */,
+				FDC009F7220E9F3700416CAD /* BotBrainTests.xctest */,
+				FDC00A02220E9F3700416CAD /* BotBrainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC009E5220E9F3200416CAD /* BotBrain */ = {
+			isa = PBXGroup;
+			children = (
+				FDC009E6220E9F3200416CAD /* AppDelegate.swift */,
+				FDC009E8220E9F3200416CAD /* ViewController.swift */,
+				FDC009EA220E9F3200416CAD /* Main.storyboard */,
+				FDC009ED220E9F3600416CAD /* Assets.xcassets */,
+				FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */,
+				FDC009F2220E9F3600416CAD /* Info.plist */,
+			);
+			path = BotBrain;
+			sourceTree = "<group>";
+		};
+		FDC009FA220E9F3700416CAD /* BotBrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC009FB220E9F3700416CAD /* BotBrainTests.swift */,
+				FDC009FD220E9F3700416CAD /* Info.plist */,
+			);
+			path = BotBrainTests;
+			sourceTree = "<group>";
+		};
+		FDC00A05220E9F3700416CAD /* BotBrainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC00A06220E9F3700416CAD /* BotBrainUITests.swift */,
+				FDC00A08220E9F3700416CAD /* Info.plist */,
+			);
+			path = BotBrainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC009E2220E9F3200416CAD /* BotBrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC00A0B220E9F3700416CAD /* Build configuration list for PBXNativeTarget "BotBrain" */;
+			buildPhases = (
+				FDC009DF220E9F3200416CAD /* Sources */,
+				FDC009E0220E9F3200416CAD /* Frameworks */,
+				FDC009E1220E9F3200416CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BotBrain;
+			productName = BotBrain;
+			productReference = FDC009E3220E9F3200416CAD /* BotBrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDC009F6220E9F3700416CAD /* BotBrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC00A0E220E9F3700416CAD /* Build configuration list for PBXNativeTarget "BotBrainTests" */;
+			buildPhases = (
+				FDC009F3220E9F3700416CAD /* Sources */,
+				FDC009F4220E9F3700416CAD /* Frameworks */,
+				FDC009F5220E9F3700416CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC009F9220E9F3700416CAD /* PBXTargetDependency */,
+			);
+			name = BotBrainTests;
+			productName = BotBrainTests;
+			productReference = FDC009F7220E9F3700416CAD /* BotBrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDC00A01220E9F3700416CAD /* BotBrainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC00A11220E9F3700416CAD /* Build configuration list for PBXNativeTarget "BotBrainUITests" */;
+			buildPhases = (
+				FDC009FE220E9F3700416CAD /* Sources */,
+				FDC009FF220E9F3700416CAD /* Frameworks */,
+				FDC00A00220E9F3700416CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC00A04220E9F3700416CAD /* PBXTargetDependency */,
+			);
+			name = BotBrainUITests;
+			productName = BotBrainUITests;
+			productReference = FDC00A02220E9F3700416CAD /* BotBrainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC009DB220E9F3100416CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = DOTsens;
+				TargetAttributes = {
+					FDC009E2220E9F3200416CAD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FDC009F6220E9F3700416CAD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FDC009E2220E9F3200416CAD;
+					};
+					FDC00A01220E9F3700416CAD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FDC009E2220E9F3200416CAD;
+					};
+				};
+			};
+			buildConfigurationList = FDC009DE220E9F3200416CAD /* Build configuration list for PBXProject "BotBrain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC009DA220E9F3100416CAD;
+			productRefGroup = FDC009E4220E9F3200416CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC009E2220E9F3200416CAD /* BotBrain */,
+				FDC009F6220E9F3700416CAD /* BotBrainTests */,
+				FDC00A01220E9F3700416CAD /* BotBrainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC009E1220E9F3200416CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC009F1220E9F3600416CAD /* LaunchScreen.storyboard in Resources */,
+				FDC009EE220E9F3600416CAD /* Assets.xcassets in Resources */,
+				FDC009EC220E9F3200416CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC009F5220E9F3700416CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC00A00220E9F3700416CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC009DF220E9F3200416CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC009E9220E9F3200416CAD /* ViewController.swift in Sources */,
+				FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC009F3220E9F3700416CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC009FC220E9F3700416CAD /* BotBrainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC009FE220E9F3700416CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC00A07220E9F3700416CAD /* BotBrainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDC009F9220E9F3700416CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC009E2220E9F3200416CAD /* BotBrain */;
+			targetProxy = FDC009F8220E9F3700416CAD /* PBXContainerItemProxy */;
+		};
+		FDC00A04220E9F3700416CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC009E2220E9F3200416CAD /* BotBrain */;
+			targetProxy = FDC00A03220E9F3700416CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDC009EA220E9F3200416CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC009EB220E9F3200416CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC009F0220E9F3600416CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC00A09220E9F3700416CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDC00A0A220E9F3700416CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDC00A0C220E9F3700416CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BotBrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsens.BotBrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC00A0D220E9F3700416CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BotBrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsens.BotBrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDC00A0F220E9F3700416CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BotBrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsens.BotBrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BotBrain.app/BotBrain";
+			};
+			name = Debug;
+		};
+		FDC00A10220E9F3700416CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BotBrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsens.BotBrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BotBrain.app/BotBrain";
+			};
+			name = Release;
+		};
+		FDC00A12220E9F3700416CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BotBrainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsens.BotBrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BotBrain;
+			};
+			name = Debug;
+		};
+		FDC00A13220E9F3700416CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BotBrainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsens.BotBrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BotBrain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC009DE220E9F3200416CAD /* Build configuration list for PBXProject "BotBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC00A09220E9F3700416CAD /* Debug */,
+				FDC00A0A220E9F3700416CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC00A0B220E9F3700416CAD /* Build configuration list for PBXNativeTarget "BotBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC00A0C220E9F3700416CAD /* Debug */,
+				FDC00A0D220E9F3700416CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC00A0E220E9F3700416CAD /* Build configuration list for PBXNativeTarget "BotBrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC00A0F220E9F3700416CAD /* Debug */,
+				FDC00A10220E9F3700416CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC00A11220E9F3700416CAD /* Build configuration list for PBXNativeTarget "BotBrainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC00A12220E9F3700416CAD /* Debug */,
+				FDC00A13220E9F3700416CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC009DB220E9F3100416CAD /* Project object */;
+}
