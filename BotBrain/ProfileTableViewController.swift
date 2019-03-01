@@ -20,7 +20,8 @@ class ProfileTableViewController: UITableViewController {
     let imageNames = ["us_dollar", "money_box", "list"]
     
     let versionBuild = ["Version", "Build"]
-    let versionBuildVals = [Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String, Bundle.main.object(forInfoDictionaryKey: kCFBundleVersionKey as String) as! String]
+    let versionBuildVals = [
+        Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String, Bundle.main.object(forInfoDictionaryKey: kCFBundleVersionKey as String) as! String]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,13 +44,13 @@ class ProfileTableViewController: UITableViewController {
     switch indexPath.section {
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: "cells", for: indexPath)
-            cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
+            cell.accessoryType = .disclosureIndicator
             cell.imageView?.image = UIImage(named: "user_male")
             cell.textLabel?.text = userName
             return cell
         case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: "cells", for: indexPath)
-            cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
+            cell.accessoryType = .disclosureIndicator
             cell.imageView?.image = UIImage(named: imageNames[indexPath.row])
             cell.textLabel?.text = settingsList[indexPath.row]
             return cell
@@ -63,6 +64,7 @@ class ProfileTableViewController: UITableViewController {
             else {
                 currentValue = versionBuildVals[indexPath.row]
             }
+            vcell.selectionStyle = .none
             vcell.textLabel?.text = currentKey
             vcell.detailTextLabel?.text = currentValue
             return vcell
