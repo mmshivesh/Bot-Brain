@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009E6220E9F3200416CAD /* AppDelegate.swift */; };
-		FDC009E9220E9F3200416CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009E8220E9F3200416CAD /* ViewController.swift */; };
 		FDC009EC220E9F3200416CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC009EA220E9F3200416CAD /* Main.storyboard */; };
 		FDC009EE220E9F3600416CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC009ED220E9F3600416CAD /* Assets.xcassets */; };
 		FDC009F1220E9F3600416CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */; };
 		FDC009FC220E9F3700416CAD /* BotBrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009FB220E9F3700416CAD /* BotBrainTests.swift */; };
 		FDC00A07220E9F3700416CAD /* BotBrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A06220E9F3700416CAD /* BotBrainUITests.swift */; };
+		FDC00A15220EA06B00416CAD /* EscortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A14220EA06B00416CAD /* EscortViewController.swift */; };
+		FDC00A17220EA27900416CAD /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A16220EA27900416CAD /* CategoriesViewController.swift */; };
+		FDC00A19220EA90400416CAD /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A18220EA90400416CAD /* CartViewController.swift */; };
+		FDC00A1B220EA94900416CAD /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A1A220EA94900416CAD /* OffersViewController.swift */; };
+		FDC00A1D220EA99300416CAD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A1C220EA99300416CAD /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		FDC009E3220E9F3200416CAD /* BotBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC009E6220E9F3200416CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDC009E8220E9F3200416CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDC009EB220E9F3200416CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDC009ED220E9F3600416CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC009F0220E9F3600416CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		FDC00A02220E9F3700416CAD /* BotBrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotBrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC00A06220E9F3700416CAD /* BotBrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotBrainUITests.swift; sourceTree = "<group>"; };
 		FDC00A08220E9F3700416CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC00A14220EA06B00416CAD /* EscortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscortViewController.swift; sourceTree = "<group>"; };
+		FDC00A16220EA27900416CAD /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		FDC00A18220EA90400416CAD /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		FDC00A1A220EA94900416CAD /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		FDC00A1C220EA99300416CAD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +106,14 @@
 			isa = PBXGroup;
 			children = (
 				FDC009E6220E9F3200416CAD /* AppDelegate.swift */,
-				FDC009E8220E9F3200416CAD /* ViewController.swift */,
+				FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */,
 				FDC009EA220E9F3200416CAD /* Main.storyboard */,
 				FDC009ED220E9F3600416CAD /* Assets.xcassets */,
-				FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */,
+				FDC00A14220EA06B00416CAD /* EscortViewController.swift */,
+				FDC00A16220EA27900416CAD /* CategoriesViewController.swift */,
+				FDC00A18220EA90400416CAD /* CartViewController.swift */,
+				FDC00A1A220EA94900416CAD /* OffersViewController.swift */,
+				FDC00A1C220EA99300416CAD /* ProfileViewController.swift */,
 				FDC009F2220E9F3600416CAD /* Info.plist */,
 			);
 			path = BotBrain;
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC009E9220E9F3200416CAD /* ViewController.swift in Sources */,
+				FDC00A1B220EA94900416CAD /* OffersViewController.swift in Sources */,
+				FDC00A17220EA27900416CAD /* CategoriesViewController.swift in Sources */,
+				FDC00A19220EA90400416CAD /* CartViewController.swift in Sources */,
+				FDC00A1D220EA99300416CAD /* ProfileViewController.swift in Sources */,
 				FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */,
+				FDC00A15220EA06B00416CAD /* EscortViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +449,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X25D82Z6C8;
 				INFOPLIST_FILE = BotBrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dotsens.BotBrain;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dotsens-1.BotBrain";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +467,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X25D82Z6C8;
 				INFOPLIST_FILE = BotBrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dotsens.BotBrain;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dotsens-1.BotBrain";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
