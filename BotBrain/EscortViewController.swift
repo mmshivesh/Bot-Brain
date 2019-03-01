@@ -10,10 +10,11 @@ import UIKit
 
 class EscortViewController: UIViewController {
 
+
     @IBOutlet weak var importListButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        importListButton.layer.cornerRadius = 5;
+        importListButton.layer.cornerRadius = 12
         // Do any additional setup after loading the view.
     }
     
