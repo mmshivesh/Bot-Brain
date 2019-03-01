@@ -17,7 +17,7 @@ class ProfileTableViewController: UITableViewController {
     var userName = "John Doe"
     
     var settingsList = ["Funds", "Redeem Points", "My Lists"]
-    let imageNames = ["us_dollar", "money_box", "list"]
+    let imageNames = ["wallet", "money_box", "list"]
     
     let versionBuild = ["Version", "Build"]
     let versionBuildVals = [
@@ -38,7 +38,14 @@ class ProfileTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return sectionTitles[section]
     }
-    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if indexPath.section==0 {
+           return 72.0
+        }
+        else {
+            return tableView.rowHeight
+        }
+    }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
     switch indexPath.section {

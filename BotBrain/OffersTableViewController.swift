@@ -9,10 +9,11 @@
 import UIKit
 
 class OffersTableViewController: UITableViewController {
-
+    let offerIcon = UIImage.init(named: "price_tag")
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -24,23 +25,26 @@ class OffersTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 4
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "offerCell", for: indexPath)
+        let tintedIcon = offerIcon?.withRenderingMode(.alwaysTemplate)
+        cell.imageView?.image = tintedIcon
+        cell.imageView?.tintColor = .orange
+//        cell.selectionStyle = .none
+        let offer = Offer(percent:20, item:"Shampoo", category:"Hair Care Products")
+        cell.textLabel?.text = offer.Discount()
+        cell.detailTextLabel?.text = offer.Category()
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

@@ -12,6 +12,7 @@
 		FDBD9AE22229087400F7A353 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AE12229087400F7A353 /* CartTableViewController.swift */; };
 		FDBD9AE42229089900F7A353 /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AE32229089900F7A353 /* StoreTableViewController.swift */; };
 		FDBD9AE7222909C900F7A353 /* EscortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AE6222909C900F7A353 /* EscortViewController.swift */; };
+		FDBD9AEB2229534100F7A353 /* OfferClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AEA2229534100F7A353 /* OfferClass.swift */; };
 		FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009E6220E9F3200416CAD /* AppDelegate.swift */; };
 		FDC009EC220E9F3200416CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC009EA220E9F3200416CAD /* Main.storyboard */; };
 		FDC009EE220E9F3600416CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC009ED220E9F3600416CAD /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		FDBD9AE12229087400F7A353 /* CartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
 		FDBD9AE32229089900F7A353 /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
 		FDBD9AE6222909C900F7A353 /* EscortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscortViewController.swift; sourceTree = "<group>"; };
+		FDBD9AEA2229534100F7A353 /* OfferClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferClass.swift; sourceTree = "<group>"; };
 		FDC009E3220E9F3200416CAD /* BotBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC009E6220E9F3200416CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC009EB220E9F3200416CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +96,23 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
+		FDBD9AE82229500100F7A353 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */,
+				FDC009EA220E9F3200416CAD /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		FDBD9AE92229531F00F7A353 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD9AEA2229534100F7A353 /* OfferClass.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		FDC009DA220E9F3100416CAD = {
 			isa = PBXGroup;
 			children = (
@@ -118,10 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				FDC009E6220E9F3200416CAD /* AppDelegate.swift */,
-				FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */,
-				FDC009EA220E9F3200416CAD /* Main.storyboard */,
-				FDC009ED220E9F3600416CAD /* Assets.xcassets */,
+				FDBD9AE92229531F00F7A353 /* Data */,
+				FDBD9AE82229500100F7A353 /* Storyboards */,
 				FDBD9AE52229099B00F7A353 /* View Controllers */,
+				FDC009ED220E9F3600416CAD /* Assets.xcassets */,
 				FDC009F2220E9F3600416CAD /* Info.plist */,
 			);
 			path = BotBrain;
@@ -278,6 +297,7 @@
 			files = (
 				FDBD9AE7222909C900F7A353 /* EscortViewController.swift in Sources */,
 				FDBD9ADC222907F600F7A353 /* ProfileTableViewController.swift in Sources */,
+				FDBD9AEB2229534100F7A353 /* OfferClass.swift in Sources */,
 				FDBD9AE22229087400F7A353 /* CartTableViewController.swift in Sources */,
 				FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */,
 				FDBD9ADE2229082300F7A353 /* OffersTableViewController.swift in Sources */,
