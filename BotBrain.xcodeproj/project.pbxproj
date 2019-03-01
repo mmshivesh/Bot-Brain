@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDBD9ADC222907F600F7A353 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9ADB222907F600F7A353 /* ProfileTableViewController.swift */; };
+		FDBD9ADE2229082300F7A353 /* OffersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9ADD2229082300F7A353 /* OffersTableViewController.swift */; };
+		FDBD9AE22229087400F7A353 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AE12229087400F7A353 /* CartTableViewController.swift */; };
+		FDBD9AE42229089900F7A353 /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AE32229089900F7A353 /* StoreTableViewController.swift */; };
+		FDBD9AE7222909C900F7A353 /* EscortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AE6222909C900F7A353 /* EscortViewController.swift */; };
 		FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009E6220E9F3200416CAD /* AppDelegate.swift */; };
 		FDC009EC220E9F3200416CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC009EA220E9F3200416CAD /* Main.storyboard */; };
 		FDC009EE220E9F3600416CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC009ED220E9F3600416CAD /* Assets.xcassets */; };
 		FDC009F1220E9F3600416CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */; };
 		FDC009FC220E9F3700416CAD /* BotBrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009FB220E9F3700416CAD /* BotBrainTests.swift */; };
 		FDC00A07220E9F3700416CAD /* BotBrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A06220E9F3700416CAD /* BotBrainUITests.swift */; };
-		FDC00A15220EA06B00416CAD /* EscortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A14220EA06B00416CAD /* EscortViewController.swift */; };
-		FDC00A17220EA27900416CAD /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A16220EA27900416CAD /* CategoriesViewController.swift */; };
-		FDC00A19220EA90400416CAD /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A18220EA90400416CAD /* CartViewController.swift */; };
-		FDC00A1B220EA94900416CAD /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A1A220EA94900416CAD /* OffersViewController.swift */; };
-		FDC00A1D220EA99300416CAD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC00A1C220EA99300416CAD /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FDBD9ADB222907F600F7A353 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		FDBD9ADD2229082300F7A353 /* OffersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTableViewController.swift; sourceTree = "<group>"; };
+		FDBD9AE12229087400F7A353 /* CartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		FDBD9AE32229089900F7A353 /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
+		FDBD9AE6222909C900F7A353 /* EscortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscortViewController.swift; sourceTree = "<group>"; };
 		FDC009E3220E9F3200416CAD /* BotBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC009E6220E9F3200416CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC009EB220E9F3200416CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,11 +55,6 @@
 		FDC00A02220E9F3700416CAD /* BotBrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotBrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC00A06220E9F3700416CAD /* BotBrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotBrainUITests.swift; sourceTree = "<group>"; };
 		FDC00A08220E9F3700416CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDC00A14220EA06B00416CAD /* EscortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscortViewController.swift; sourceTree = "<group>"; };
-		FDC00A16220EA27900416CAD /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
-		FDC00A18220EA90400416CAD /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
-		FDC00A1A220EA94900416CAD /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
-		FDC00A1C220EA99300416CAD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FDBD9AE52229099B00F7A353 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD9AE6222909C900F7A353 /* EscortViewController.swift */,
+				FDBD9AE32229089900F7A353 /* StoreTableViewController.swift */,
+				FDBD9AE12229087400F7A353 /* CartTableViewController.swift */,
+				FDBD9ADD2229082300F7A353 /* OffersTableViewController.swift */,
+				FDBD9ADB222907F600F7A353 /* ProfileTableViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		FDC009DA220E9F3100416CAD = {
 			isa = PBXGroup;
 			children = (
@@ -109,11 +121,7 @@
 				FDC009EF220E9F3600416CAD /* LaunchScreen.storyboard */,
 				FDC009EA220E9F3200416CAD /* Main.storyboard */,
 				FDC009ED220E9F3600416CAD /* Assets.xcassets */,
-				FDC00A14220EA06B00416CAD /* EscortViewController.swift */,
-				FDC00A16220EA27900416CAD /* CategoriesViewController.swift */,
-				FDC00A18220EA90400416CAD /* CartViewController.swift */,
-				FDC00A1A220EA94900416CAD /* OffersViewController.swift */,
-				FDC00A1C220EA99300416CAD /* ProfileViewController.swift */,
+				FDBD9AE52229099B00F7A353 /* View Controllers */,
 				FDC009F2220E9F3600416CAD /* Info.plist */,
 			);
 			path = BotBrain;
@@ -268,12 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC00A1B220EA94900416CAD /* OffersViewController.swift in Sources */,
-				FDC00A17220EA27900416CAD /* CategoriesViewController.swift in Sources */,
-				FDC00A19220EA90400416CAD /* CartViewController.swift in Sources */,
-				FDC00A1D220EA99300416CAD /* ProfileViewController.swift in Sources */,
+				FDBD9AE7222909C900F7A353 /* EscortViewController.swift in Sources */,
+				FDBD9ADC222907F600F7A353 /* ProfileTableViewController.swift in Sources */,
+				FDBD9AE22229087400F7A353 /* CartTableViewController.swift in Sources */,
 				FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */,
-				FDC00A15220EA06B00416CAD /* EscortViewController.swift in Sources */,
+				FDBD9ADE2229082300F7A353 /* OffersTableViewController.swift in Sources */,
+				FDBD9AE42229089900F7A353 /* StoreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
