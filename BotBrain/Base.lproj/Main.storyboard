@@ -75,7 +75,7 @@
             </objects>
             <point key="canvasLocation" x="2640" y="-933"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Store-->
         <scene sceneID="ZLQ-ST-4Sk">
             <objects>
                 <tableViewController id="dle-Bg-Feh" customClass="StoreTableViewController" customModule="BotBrain" customModuleProvider="target" sceneMemberID="viewController">
@@ -98,7 +98,7 @@
                             <outlet property="delegate" destination="dle-Bg-Feh" id="gd1-RT-u9m"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="kOY-J4-mVN"/>
+                    <navigationItem key="navigationItem" title="Store" id="kOY-J4-mVN"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mEH-mJ-YMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -197,7 +197,7 @@
             </objects>
             <point key="canvasLocation" x="-270" y="2256"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Cart-->
         <scene sceneID="isD-LG-REA">
             <objects>
                 <tableViewController id="Evt-sV-gpy" customClass="CartTableViewController" customModule="BotBrain" customModuleProvider="target" sceneMemberID="viewController">
@@ -220,13 +220,13 @@
                             <outlet property="delegate" destination="Evt-sV-gpy" id="K6H-yn-uWu"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="MQ4-2J-2K9"/>
+                    <navigationItem key="navigationItem" title="Cart" id="MQ4-2J-2K9"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aHt-rG-7pn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2636" y="837"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Offers-->
         <scene sceneID="REi-2c-F1Z">
             <objects>
                 <tableViewController id="cMz-l1-Jio" customClass="OffersTableViewController" customModule="BotBrain" customModuleProvider="target" sceneMemberID="viewController">
@@ -249,7 +249,7 @@
                             <outlet property="delegate" destination="cMz-l1-Jio" id="JwE-nz-jVx"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="djd-JL-zqA"/>
+                    <navigationItem key="navigationItem" title="Offers" id="djd-JL-zqA"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qik-Az-Ajh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -353,7 +353,7 @@
             </objects>
             <point key="canvasLocation" x="2640" y="3600"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Account-->
         <scene sceneID="nyh-hh-iqm">
             <objects>
                 <tableViewController id="cX4-l9-6yX" customClass="ProfileTableViewController" customModule="BotBrain" customModuleProvider="target" sceneMemberID="viewController">
@@ -362,12 +362,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Tl2-8p-lD8">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cells" textLabel="nvN-2z-yNb" style="IBUITableViewCellStyleDefault" id="Tl2-8p-lD8">
                                 <rect key="frame" x="0.0" y="55.5" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Tl2-8p-lD8" id="jfk-ws-ARy">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nvN-2z-yNb">
+                                            <rect key="frame" x="16" y="0.0" width="288" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -376,17 +385,17 @@
                             <outlet property="delegate" destination="cX4-l9-6yX" id="5Xh-Yo-1kp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" largeTitleDisplayMode="always" id="Ba3-09-u1b"/>
+                    <navigationItem key="navigationItem" title="Account" largeTitleDisplayMode="always" id="Ba3-09-u1b"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDc-bv-3Wq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2640" y="2661"/>
         </scene>
-        <!--Profile-->
+        <!--Account-->
         <scene sceneID="Nhh-cb-JSO">
             <objects>
                 <navigationController id="KTo-mE-Gcy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" image="user_male" id="Q3x-JM-N6S"/>
+                    <tabBarItem key="tabBarItem" title="Account" image="user_male" id="Q3x-JM-N6S"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vuZ-LG-DDh">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
