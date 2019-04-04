@@ -10,6 +10,7 @@ import UIKit
 
 class OffersTableViewController: UITableViewController {
     let offerIcon = UIImage.init(named: "price_tag")
+    let expiredOfferIcon = UIImage.init(named: "")
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,28 +26,56 @@ class OffersTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 2
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 4
+        if section == 0 {
+            return 4
+        }
+        else {
+            return 2
+        }
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Active Offers"
+        if section == 0 {
+            return "Active Offers"
+        }
+        else {
+            return "Expired Offers"
+        }
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "offerCell", for: indexPath)
-        let tintedIcon = offerIcon?.withRenderingMode(.alwaysTemplate)
-        cell.imageView?.image = tintedIcon
-        cell.imageView?.tintColor = .orange
-//        cell.selectionStyle = .none
-        let offer = Offer(percent:20, item:"Shampoo", category:"Hair Care Products")
-        cell.textLabel?.text = offer.Discount()
-        cell.detailTextLabel?.text = offer.Category()
-        return cell
+        if indexPath.section == 0 {
+            let tintedIcon = offerIcon?.withRenderingMode(.alwaysTemplate)
+            cell.imageView?.image = tintedIcon
+            
+            cell.imageView?.tintColor = .orange
+            let offer = Offer(percent:20, item:"Shampoo", category:"Hair Care Products")
+            cell.textLabel?.text = offer.Discount()
+            cell.detailTextLabel?.text = offer.Category()
+            
+            return cell
+        }
+        else {
+            let tintedIcon = offerIcon?.withRenderingMode(.alwaysTemplate)
+            
+            cell.imageView?.image = tintedIcon
+            cell.imageView?.tintColor = .orange
+            cell.imageView?.alpha = 0.4
+            
+            let offer = Offer(percent:20, item:"Shampoo", category:"Hair Care Products")
+            cell.textLabel?.text = offer.Discount()
+            cell.textLabel?.alpha = 0.4
+            cell.detailTextLabel?.text = offer.Category()
+            cell.detailTextLabel?.alpha = 0.4
+            cell.selectionStyle = .none
+            return cell
+        }
     }
 
     /*

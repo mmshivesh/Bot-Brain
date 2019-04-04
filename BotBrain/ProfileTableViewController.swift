@@ -22,7 +22,7 @@ class ProfileTableViewController: UITableViewController {
     let versionBuild = ["Version", "Build"]
     let versionBuildVals = [
         Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String, Bundle.main.object(forInfoDictionaryKey: kCFBundleVersionKey as String) as! String]
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -46,6 +46,31 @@ class ProfileTableViewController: UITableViewController {
             return tableView.rowHeight
         }
     }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Section: \(indexPath.section) Row: \(indexPath.row)")
+        if (indexPath.section == 0 && indexPath.row == 0) {
+            showAlert()
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+        else if(indexPath.section == 1 && indexPath.row == 0) {
+            self.performSegue(withIdentifier: "FundsSegue", sender: self)
+        }
+        else if(indexPath.section == 1 && indexPath.row == 1) {
+            self.performSegue(withIdentifier: "RedeemPointsSegue", sender: self)
+        }
+        else if(indexPath.section == 1 && indexPath.row == 2) {
+            self.performSegue(withIdentifier: "MyListsSegue", sender: self)
+        }
+    }
+    func showAlert() {
+        let alert = UIAlertController.init(title: "Logout", message: "Do you want to logout?", preferredStyle: .actionSheet)
+        
+        alert.addAction(UIAlertAction(title: "Logout", style: .destructive, handler: nil))   //TODO : ADD THE HANDLER
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
     switch indexPath.section {

@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD90ED3B22474EB000865E53 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90ED3A22474EAF00865E53 /* Just.swift */; };
+		FD90ED3F224753A600865E53 /* ImportListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90ED3E224753A600865E53 /* ImportListViewController.swift */; };
+		FD90ED4122475BEC00865E53 /* LoaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90ED4022475BEC00865E53 /* LoaderController.swift */; };
+		FD90ED44224772A700865E53 /* showListItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90ED43224772A700865E53 /* showListItemTableViewController.swift */; };
+		FD90ED462247792400865E53 /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90ED452247792400865E53 /* ResponseViewController.swift */; };
 		FDBD9ADC222907F600F7A353 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9ADB222907F600F7A353 /* ProfileTableViewController.swift */; };
 		FDBD9ADE2229082300F7A353 /* OffersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9ADD2229082300F7A353 /* OffersTableViewController.swift */; };
 		FDBD9AE22229087400F7A353 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AE12229087400F7A353 /* CartTableViewController.swift */; };
 		FDBD9AE42229089900F7A353 /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AE32229089900F7A353 /* StoreTableViewController.swift */; };
 		FDBD9AE7222909C900F7A353 /* EscortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AE6222909C900F7A353 /* EscortViewController.swift */; };
 		FDBD9AEB2229534100F7A353 /* OfferClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AEA2229534100F7A353 /* OfferClass.swift */; };
+		FDBD9AED22298A2E00F7A353 /* FundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AEC22298A2E00F7A353 /* FundsViewController.swift */; };
+		FDBD9AEF22298D1C00F7A353 /* RedeemPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AEE22298D1C00F7A353 /* RedeemPointsViewController.swift */; };
+		FDBD9AF122298D2700F7A353 /* MyListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD9AF022298D2700F7A353 /* MyListsViewController.swift */; };
+		FDBD9AF422298E7200F7A353 /* Currency Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDBD9AF322298E7100F7A353 /* Currency Regular.ttf */; };
 		FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC009E6220E9F3200416CAD /* AppDelegate.swift */; };
 		FDC009EC220E9F3200416CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC009EA220E9F3200416CAD /* Main.storyboard */; };
 		FDC009EE220E9F3600416CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC009ED220E9F3600416CAD /* Assets.xcassets */; };
@@ -39,12 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD90ED3A22474EAF00865E53 /* Just.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
+		FD90ED3E224753A600865E53 /* ImportListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportListViewController.swift; sourceTree = "<group>"; };
+		FD90ED4022475BEC00865E53 /* LoaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderController.swift; sourceTree = "<group>"; };
+		FD90ED43224772A700865E53 /* showListItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showListItemTableViewController.swift; sourceTree = "<group>"; };
+		FD90ED452247792400865E53 /* ResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
 		FDBD9ADB222907F600F7A353 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		FDBD9ADD2229082300F7A353 /* OffersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTableViewController.swift; sourceTree = "<group>"; };
 		FDBD9AE12229087400F7A353 /* CartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
 		FDBD9AE32229089900F7A353 /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
 		FDBD9AE6222909C900F7A353 /* EscortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscortViewController.swift; sourceTree = "<group>"; };
 		FDBD9AEA2229534100F7A353 /* OfferClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferClass.swift; sourceTree = "<group>"; };
+		FDBD9AEC22298A2E00F7A353 /* FundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundsViewController.swift; sourceTree = "<group>"; };
+		FDBD9AEE22298D1C00F7A353 /* RedeemPointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemPointsViewController.swift; sourceTree = "<group>"; };
+		FDBD9AF022298D2700F7A353 /* MyListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsViewController.swift; sourceTree = "<group>"; };
+		FDBD9AF322298E7100F7A353 /* Currency Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Currency Regular.ttf"; sourceTree = "<group>"; };
 		FDC009E3220E9F3200416CAD /* BotBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC009E6220E9F3200416CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC009EB220E9F3200416CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,14 +102,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD90ED362247449D00865E53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD90ED4222475DFF00865E53 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FD90ED4022475BEC00865E53 /* LoaderController.swift */,
+				FD90ED3A22474EAF00865E53 /* Just.swift */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		FDBD9AE52229099B00F7A353 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FD90ED3E224753A600865E53 /* ImportListViewController.swift */,
+				FD90ED43224772A700865E53 /* showListItemTableViewController.swift */,
 				FDBD9AE6222909C900F7A353 /* EscortViewController.swift */,
 				FDBD9AE32229089900F7A353 /* StoreTableViewController.swift */,
 				FDBD9AE12229087400F7A353 /* CartTableViewController.swift */,
 				FDBD9ADD2229082300F7A353 /* OffersTableViewController.swift */,
 				FDBD9ADB222907F600F7A353 /* ProfileTableViewController.swift */,
+				FD90ED452247792400865E53 /* ResponseViewController.swift */,
+				FDBD9AF222298D2E00F7A353 /* Settings VC */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -113,6 +151,16 @@
 			name = Data;
 			sourceTree = "<group>";
 		};
+		FDBD9AF222298D2E00F7A353 /* Settings VC */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD9AEC22298A2E00F7A353 /* FundsViewController.swift */,
+				FDBD9AEE22298D1C00F7A353 /* RedeemPointsViewController.swift */,
+				FDBD9AF022298D2700F7A353 /* MyListsViewController.swift */,
+			);
+			name = "Settings VC";
+			sourceTree = "<group>";
+		};
 		FDC009DA220E9F3100416CAD = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +168,7 @@
 				FDC009FA220E9F3700416CAD /* BotBrainTests */,
 				FDC00A05220E9F3700416CAD /* BotBrainUITests */,
 				FDC009E4220E9F3200416CAD /* Products */,
+				FD90ED362247449D00865E53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,12 +185,14 @@
 		FDC009E5220E9F3200416CAD /* BotBrain */ = {
 			isa = PBXGroup;
 			children = (
-				FDC009E6220E9F3200416CAD /* AppDelegate.swift */,
 				FDBD9AE92229531F00F7A353 /* Data */,
 				FDBD9AE82229500100F7A353 /* Storyboards */,
 				FDBD9AE52229099B00F7A353 /* View Controllers */,
 				FDC009ED220E9F3600416CAD /* Assets.xcassets */,
 				FDC009F2220E9F3600416CAD /* Info.plist */,
+				FDC009E6220E9F3200416CAD /* AppDelegate.swift */,
+				FDBD9AF322298E7100F7A353 /* Currency Regular.ttf */,
+				FD90ED4222475DFF00865E53 /* Libraries */,
 			);
 			path = BotBrain;
 			sourceTree = "<group>";
@@ -269,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC009F1220E9F3600416CAD /* LaunchScreen.storyboard in Resources */,
+				FDBD9AF422298E7200F7A353 /* Currency Regular.ttf in Resources */,
 				FDC009EE220E9F3600416CAD /* Assets.xcassets in Resources */,
 				FDC009EC220E9F3200416CAD /* Main.storyboard in Resources */,
 			);
@@ -295,12 +347,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBD9AF122298D2700F7A353 /* MyListsViewController.swift in Sources */,
+				FDBD9AEF22298D1C00F7A353 /* RedeemPointsViewController.swift in Sources */,
 				FDBD9AE7222909C900F7A353 /* EscortViewController.swift in Sources */,
+				FD90ED3F224753A600865E53 /* ImportListViewController.swift in Sources */,
+				FD90ED462247792400865E53 /* ResponseViewController.swift in Sources */,
 				FDBD9ADC222907F600F7A353 /* ProfileTableViewController.swift in Sources */,
 				FDBD9AEB2229534100F7A353 /* OfferClass.swift in Sources */,
+				FD90ED3B22474EB000865E53 /* Just.swift in Sources */,
+				FDBD9AED22298A2E00F7A353 /* FundsViewController.swift in Sources */,
 				FDBD9AE22229087400F7A353 /* CartTableViewController.swift in Sources */,
 				FDC009E7220E9F3200416CAD /* AppDelegate.swift in Sources */,
 				FDBD9ADE2229082300F7A353 /* OffersTableViewController.swift in Sources */,
+				FD90ED4122475BEC00865E53 /* LoaderController.swift in Sources */,
+				FD90ED44224772A700865E53 /* showListItemTableViewController.swift in Sources */,
 				FDBD9AE42229089900F7A353 /* StoreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +538,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X25D82Z6C8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BotBrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -496,6 +560,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X25D82Z6C8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BotBrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

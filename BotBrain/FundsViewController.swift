@@ -1,5 +1,5 @@
 //
-//  EscortViewController.swift
+//  FundsViewController.swift
 //  BotBrain
 //
 //  Created by Shivesh M M on 01/03/19.
@@ -8,17 +8,15 @@
 
 import UIKit
 
-class EscortViewController: UIViewController {
+class FundsViewController: UIViewController {
 
-
-    @IBOutlet weak var importListButton: UIButton!
+    @IBOutlet weak var currentFundsCurrency: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        importListButton.layer.cornerRadius = importListButton.frame.size.height/2.0
         // Do any additional setup after loading the view.
     }
     
-
+    
     /*
     // MARK: - Navigation
 

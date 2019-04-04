@@ -1,5 +1,5 @@
 //
-//  EscortViewController.swift
+//  RedeemPointsViewController.swift
 //  BotBrain
 //
 //  Created by Shivesh M M on 01/03/19.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class EscortViewController: UIViewController {
+class RedeemPointsViewController: UIViewController {
 
-
-    @IBOutlet weak var importListButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        importListButton.layer.cornerRadius = importListButton.frame.size.height/2.0
+
         // Do any additional setup after loading the view.
     }
     
